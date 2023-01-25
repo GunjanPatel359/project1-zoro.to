@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>registration form</title>
+        <link rel="icon" href="project images\mylogo.jpg">
+        <style>
+            body{
+                background-image: url("project images/Naruto-4k-Wallpaper.jpg");
+                background-size: cover; 
+                background-repeat:no-repeat;
+                background-position: center;
+            }
+            .a{
+                width: 33%;
+            }
+            .box{
+                width: 200px;
+                height: 25px;
+            }
+             @media screen and (max-width:600px){
+                body {
+                    background-image: url("project images/image1.jpeg");
+                }
+                .a{
+                    width: 70%;
+                }
+                }
+        </style> 
+        
+    </head>
+    <body>
+        <center>
+            <h1 style="font-size: 45px;">Welcome To Zoro.to</h1>
+        </center>
+    <center>
+     <form style="font-size:30;" action="main1.html" class="a">
+            <fieldset style="background-color:rgb(182, 181, 181,0.5) ;">
+             <legend style="text-align:center; font-size: 37;">Login</legend>
+
+             <br>
+             <label name="your name">Enter Your Name</label><br>
+             <input type="text" required placeholder="enter name" class="box"><br><br>
+
+             <label for="your email">Enter Your Email</label><br>
+             <input type="email" required placeholder="enter email" class="box"><br><br>
+
+             <label for="password">Password</label><br>
+             <input type="password" required placeholder="enter password" class="box"><br><br>
+
+             <input type="submit" value="submit" style="font-size:large;">&nbsp;
+             <input type="reset" value="reset" style="font-size:large;"><br><br>
+
+             If You Haven't Register Yet<br>
+             <a href="sign_up_page.html">Sign Up</a>
+
+            </fieldset>   
+     </form>
+    </center>
+    </body>
+</html>

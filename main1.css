@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav div.title{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(rgb(38, 36, 173),rgb(68, 4, 105));
+    /*background-image: linear-gradient(rgb(34, 167, 211),rgb(63, 140, 228));*/
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    text-align: center;
+    z-index: 1;
+}
+nav div span a{
+    color: white;
+    text-decoration: none;
+}
+nav div ul.navigation{
+    list-style: none;
+    display: inline-flex;
+    letter-spacing: 1.3px;
+    margin-top: 7px;
+    margin-bottom: 0PX;
+}
+nav div ul a{
+    border: 2px solid rgb(194, 185, 185);
+    text-decoration: none;
+    padding: 3px 10px 3px 10px;
+    font-size: 20px;
+    z-index: 3;
+}
+nav div.box{
+    background-color: rgb(194, 185, 185);
+    height: 37px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+nav div ul a:hover{
+    border: 2px inset black;
+    border-radius: 20px;
+    background-color: rgb(156, 103, 206);
+    color: white;
+}
+div.logo{
+    margin-top: 37px;
+    background-image: url("project images/3542253.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 560px;
+}
+div div p.Anime{
+    padding-left: 10px;
+    text-indent: 45px;
+    background-color: rgb(194, 185, 185,0.5);
+    color: rgb(57, 6, 105);
+    text-transform: capitalize;
+    padding-top: 20px;
+    margin-left: 35px;
+    width: 500px;
+    font-size: 25px;
+    letter-spacing: 1.3px;
+    word-spacing: 15px;
+    box-shadow: 5px 5px  grey;
+}
+div.full_site_background{
+    padding: 2px;
+    background-color:  rgb(194, 185, 185,0.5);
+    width: auto;
+    height: auto;
+}
+div a input.view_full_site{
+    font-size: 35px; 
+    padding: 0px 15px; border-radius: 30px; 
+    background-color:rgb(151, 3, 77);
+    border-bottom:3px inset rgb(68, 4, 105);
+    border-right:3px inset rgb(68, 4, 105);
+    border-top:3px inset rgb(2, 0, 109);
+    border-left:3px inset rgb(2, 0, 109);
+    color: white; 
+    cursor: pointer;
+}
+div a input.view_full_site:hover{
+    border-top:3px inset rgb(68, 4, 105);
+    border-left:3px inset rgb(68, 4, 105);
+    border-bottom:3px inset rgb(2, 0, 109);
+    border-right:3px inset rgb(2, 0, 109);
+    background-color:rgb(68, 4, 105);
+    color: white;
+}
+div.social_media{
+    background-image: url("project images/back2.jpg");
+    width: 100%;
+    background-position: center;
+    display: block;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    z-index: -1;
+}
+div div.contact{
+    text-align: center;
+    padding: 30px;
+}
+div div span.title1{
+    padding: 5px;
+    margin-top: 0px;
+    color: rgb(92, 18, 134);
+    /* color: rgb(80, 3, 124); */
+    font-size: 40px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: rgba(206, 195, 195, 0.7);
+    z-index: 0;
+}
+div div.box{
+    padding-top: 60px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+div div div.discord{
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(194, 185, 185,0.85);
+    background-size: cover;
+    margin: 20px auto;
+    z-index: 0;
+}
+div div div.discord p.text{
+    font-size: 20px ;
+    padding:15px;
+}
+div div div.instagram{
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(194, 185, 185,0.85);
+    background-size: cover;
+    margin:20px auto;
+    z-index: 0;
+}
+div div div.instagram p.text{
+    font-size: 20px;
+    margin-top: 18px;
+    padding: 15px;
+}
+div div div.instagram p.text span.ins{
+    padding: 3px;
+    background-color: aliceblue;
+    border: 1px solid grey;
+    border-radius: 20px;
+    color: rgb(193, 53, 132);
+}
+div div div.gmail{
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(194, 185, 185,0.85);
+    background-size: cover;
+    margin:20px auto;
+    z-index: 0;
+}
+div div div.whatsapp{
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(194, 185, 185,0.85);
+    background-size: cover;
+    margin: 20px auto;
+    z-index: 0;
+}
+div.social_media div.box div img{
+    margin-top: -35px;
+    width: 70px;
+    height: 70px;
+}
+.copyright{
+    border-top: 1px solid white;
+    background-color: black;
+    color: white;
+}

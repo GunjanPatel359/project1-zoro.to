@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div.start{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("project images/21599.jpg");
+    /* background-image: linear-gradient(rgb(38, 36, 173),rgb(68, 4, 105)); */
+    width: 100%;
+    height: 700px;
+    border: 1px;
+    z-index: 1;
+}
+div div.title{
+    line-height: 75px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: white;
+    margin-left: 30px;
+    font-size: 50px;
+}
+div div div.navigation{
+    float: right;
+    display: flex;
+}
+div div div.navigation ul li{
+    display: inline-block;
+}
+div div div ul a{
+    color: white;
+    text-decoration: none;
+    padding: 3px 10px 3px 10px;
+    font-size: 20px;
+}
+div div div ul a:hover{
+    color: grey;
+}
+div div.search{
+    width: 100%;
+    min-height: 50px;
+    padding: 5%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+div div form.search-bar{
+    width: 100%;
+    max-width: 550px;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+div div form.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 10px;
+    font-size: 23px;
+}
+::placeholder{
+    color: white;
+}
+div div form.search-bar button img{
+    width: 25px;
+}
+div div form.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width:45px;
+    height: 45px;
+    background-color: white;
+    cursor: pointer;
+}
+/*slider start*/
+div.slider_box{
+    border: 2px inset;
+    width: 100%;
+    height: 600px;
+    background-image: url("animephotos/back1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+div div.gradient{
+    background-image: linear-gradient(to bottom left,);
+    width: 100%;
+    height: 100%;
+}
+div div div.slider{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-size: cover;
+    background-image: url("project images/welcomeimage.jpg");
+    background-position: center;
+    background-color: black;
+    width: 60%;
+    height: 400px;
+    border: 1px inset;
+    animation: slider 20s infinite linear;
+    z-index: 0;
+}
+@keyframes slider{
+    0%{background-image: url("project images/welcomeimage.jpg");}
+    10%{background-image: url("project images/3542253.jpg");}
+    20%{background-image: url("project images/Naruto-4k-Wallpaper.jpg");}
+    30%{background-image: url("project images/naruto-uzumaki-hand-up-baryon-mode_3840x2160_xtrafondos.com.jpg");}
+    40%{background-image: url("project images/back1.jpg");}
+    50%{background-image: url("animephotos/Demon-Slayer-Kyojuro-Rengoku.jpg");}
+    60%{background-image: url("");}
+    70%{background-image: url("");}
+    80%{background-image: url("");}
+    90%{background-image: url("");}
+    100%{background-image: url("");}
+}
+/*slider end*/
+/*most_popular start*/
+div.back{
+    background-image: url("project images/image7.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+div div.back1{
+    padding-top: 5px;
+    height: 60px;
+    position: relative;
+    top: 30px;
+    background-color: rgb(128, 128, 128,0.85);
+    width: fit-content;
+}
+div div span.most_popular{
+    padding-right: 5px;
+    font-style: italic;
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    margin-left: 100px;
+    font-size: 40px;
+    border: 3px inset white;
+    border-top: 0px;
+    border-right: 0px;
+}
+div div.box{
+    width: 100%;
+    height: auto;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div div div.m1{
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 400px;
+    margin: auto;
+    margin-top: 60px;
+}
+div div div img{
+    width: 100%;
+    height: 100%;
+}
+div div div.jujutsu_kaisen{
+    margin-bottom: 60px;
+}
+/*most_popular end*/
+/*movies start*/
+div.back2{
+    border: 1px outset white;
+    background-image: url("animephotos/8117142_2070.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+div div.back2-1{
+    padding-top: 5px;
+    height: 60px;
+    position: relative;
+    top: 30px;
+    background-color: rgb(128, 128, 128,0.85);
+    width: fit-content;
+}
+div div span.movies{
+    padding-right: 5px;
+    font-style: italic;
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    margin-left: 100px;
+    font-size: 40px;
+    border: 3px inset white;
+    border-top: 0px;
+    border-right: 0px;
+}
+div div.box2{
+    width: 100%;
+    height: auto;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div div div.m2{
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 400px;
+    margin: auto;
+    margin-top: 60px;
+}
+div div div.movie4{
+    background-color: grey;
+    margin-bottom: 30px;
+}
+/*movies end*/
+
+.copyright{
+    border-top: 1px solid white;
+    background-color: black;
+    color: white;
+}

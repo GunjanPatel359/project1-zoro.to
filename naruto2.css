@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div.title{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    background-position: bottom;
+    background-image: linear-gradient(rgb(56, 53, 209),rgb(85, 5, 131));
+    /* background-image: linear-gradient(rgb(34, 167, 211),rgb(12, 84, 167)); */
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    text-align: center;
+    z-index: 1;
+}
+div span a{
+    color: white;
+    text-decoration: none;
+}
+div.video_back{
+    border: 2px solid white;
+    box-shadow: 0px 0px  white;
+    background-position: center;
+    background-size: cover;
+    /* background-image: linear-gradient(to right,#ca17ac , #1D2671); */
+    background-image: url("animephotos/back1.jpg"); 
+    width: 100%;
+    height: 500px;
+}
+div div.video{
+    background-image: url("project images/hinata.avif");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    width: 60%;
+    height: 400px;
+}
+div.ep_list{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+div div.ep_status{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    width: 40%;
+    height: 200px;
+    background-color:rgb(89, 18, 129);
+    border-right: 2px inset black;
+}
+div div.ep_status p.ep_text{
+    font-size: 35px;
+}
+div div p.ep_text1{
+    font-size: 28px
+}
+div div.ep{
+    padding: 30px 30px;
+    background-color: grey;
+    width: 60%;
+    height: 200px;
+    overflow-y: scroll;
+}
+div div.ep button.button{
+    margin:10px;
+    width: 50px;
+    height: auto;
+}
+
+@media screen and (max-width:650px){
+    div.ep_list{
+        display: block;
+    }
+    div div.ep_status{
+        width: 100%;
+    }
+    div div.ep{
+        width: 100%;
+    }
+}
+
+div.back{
+    border: 2px inset white;
+    background-image: url("animephotos/8117142_2070.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+div div.back1{
+    padding-top: 5px;
+    height: 60px;
+    position: relative;
+    top: 30px;
+    background-color: rgb(128, 128, 128,0.85);
+    width: fit-content;
+}
+div div span.dialogue{
+    padding-right: 5px;
+    font-style: italic;
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    margin-left: 100px;
+    font-size: 40px;
+    border: 3px inset white;
+    border-top: 0px;
+    border-right: 0px;
+}
+div div.dialogue_video{
+    width: 100%;
+    height: auto;
+}
+div div video{
+    margin-top: 60px;
+    height: 300px;
+}
+.copyright{
+    border-top: 1px solid white;
+    background-color: black;
+    color: white;
+}
